@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/127/553/190/koi-koi-japan-hanafuda-playing-cards-wallpaper-preview.jpg");
+  background-size: cover;
+  color: white;
+}
+.memory {
+  color: white;
+}
+.memory .memory_scoreboard {
+  font-size:  xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+.congrats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  padding: 100px;
+}
+.congrats h1 {
+  font-size:  xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  color: white;
+}

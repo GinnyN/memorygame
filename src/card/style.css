@@ -1,0 +1,10 @@
+.memory__card {
+    background-size: cover;
+    width: 6em;
+    height: 10em;
+    border: 2px white solid;
+    border-radius: 10px;
+    background-color: cornsilk;
+    background-image: url("https://www.modernhanafuda.net/wp-content/uploads/2012/03/fish.png");
+    background-position: center;
+}
