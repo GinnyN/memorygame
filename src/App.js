@@ -68,7 +68,7 @@ function App() {
   return (
     <React.Fragment>
         { congrats && <div className='congrats'>
-          <h1>Congratulations</h1>
+          <h1>{names}! Congratulations!</h1>
           <Button onClick={resetGame}>New Game</Button>
         </div> }
         { names.length === 0 && <div className='congrats'>
